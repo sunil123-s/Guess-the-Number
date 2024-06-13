@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+div, p {
+    color: #333;
+}
+
+.form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.guessnumber {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db; /* Blue color */
+}
+
+.guessfield {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+}
+
+.submit {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.ressut {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.preguess {
+    font-weight: bold;
+    color: #27ae60; /* Green color */
+}
+
+.lastresult {
+    font-weight: bold;
+    color: #e74c3c; /* Red color */
+}
+
+.loworhi {
+    font-weight: bold;
+    color: #f39c12; /* Orange color */
+}
